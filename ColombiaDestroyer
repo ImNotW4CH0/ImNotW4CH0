@@ -1,0 +1,554 @@
+if game.PlaceId == 11638805019 then
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window1 = Rayfield:CreateWindow({
+ Name = "Colombia ⚔️",
+ LoadingTitle = "Revisando Whitelist...",
+ LoadingSubtitle = "by YourAnomOne",
+ ConfigurationSaving = {
+	Enabled = false,
+	FolderName = "ExploitingTolima",
+	FileName = "YourAnomOne"
+ },
+ Discord = {
+	 Enabled = true,
+	 Invite = "https://discord.gg/mjWBshtNw4",
+	 RememberJoins = true
+ },
+ KeySystem = true,
+ KeySettings = {
+	 Title = "Colombia ⚔️",
+	 Subtitle = "Sistema de Autorización",
+	 Note = "Ingresa tu llave de Autorización entregada por el dictador.",
+	 FileName = "Autorizacion",
+	 SaveKey = false,
+	 GrabKeyFromSite = false,
+	 Key = {"Agustin_0x5x2xurq2x675x13x725xvrqex8i7735_ADMIN", "Capy_6x1x7xqerewr5135x6x761xrqe1yrqw12_ADMIN"}
+ }
+})
+
+local MainTab = Window1:CreateTab("Nivel 1", nil)
+local MainSection = MainTab:CreateSection("Principal")
+
+local SegundaTab = Window1:CreateTab("Nivel 2", nil)
+local SegundaSection = SegundaTab:CreateSection("Teams & Chat Lag")
+
+local TerceraTab = Window1:CreateTab("Nivel 3", nil)
+local TerceraSection = TerceraTab:CreateSection("Eliminar Recursos")
+
+local CuartaTab = Window1:CreateTab("Nivel 4", nil)
+local CuartaSection = CuartaTab:CreateSection("Anti Adminstradores")
+
+Rayfield:Notify({
+	Title = "Ejecutaste el Script!",
+	Content = "Haz burlado el AntiCheat actual en tan solo 1.5 segundos.",
+	Duration = 4.5,
+	Image = nil,
+	Actions = {
+      Ignore = {
+        Name = "Okey!",
+		Callback = function()
+		warn("YourAnomOne")
+	  end
+    },
+},
+})
+
+local Button = MainTab:CreateButton({
+	Name = "Infinity Yield",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+})
+
+local Button1 = MainTab:CreateButton({
+	Name = "Crashear Servidor (No funciona muy bien)",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/k5AVZBsn"))()
+	end
+})
+
+local Button2 = SegundaTab:CreateButton({
+	Name = "Lagear el Chat",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Fe%20lag%20chat%20Gui"))()
+	end
+})
+
+local Button3 = SegundaTab:CreateButton({
+	Name = "Cambiar de Equipo a AFEUR",
+	Callback = function()
+		game.ReplicatedStorage.Equipo1:FireServer()
+	end
+})
+
+local Button4 = SegundaTab:CreateButton({
+	Name = "Cambiar de Equipo a EJC",
+	Callback = function()
+       game.ReplicatedStorage.Equipo5:FireServer()
+	end
+})
+
+local Button5 = TerceraTab:CreateButton({
+	Name = "Sonidos Globales",
+	Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hx9N6LHT"))()
+	end
+})
+
+local Button6 = TerceraTab:CreateButton({
+	Name = "Eliminar Cosas al Clickear",
+	Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NbPreBBP"))()
+	end
+})
+
+local Button7 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta del ACS_BT en ReplicatedStorage",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedStorage.ACS_BT)	
+	end
+})
+
+local Button8 = TerceraTab:CreateButton({
+	Name = "Eliminar el ModuleScript de CameraShaker del ACS en ReplicatedStorage",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedStorage.CameraShaker)	
+	end
+})
+
+local Button9 = TerceraTab:CreateButton({
+	Name = "Eliminar el ModuleScript de Overture en ReplicatedStorage",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedStorage.Overture)	
+	end
+})
+
+local Button10 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de WeaponFrameworkRep en ReplicatedStorage",
+	Callback = function()
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedStorage.WeaponFrameworkRep)
+	end
+})
+
+local Button11 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de Animate en StarterCharacterScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterCharacterScripts.Animate)	
+	end
+})
+
+local Button11 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de CameraZoom en StarterCharacterScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterCharacterScripts.CameraZoom)	
+	end
+})
+
+local Button12 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de HidePrompts en StarterCharacterScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterCharacterScripts.HidePrompts)	
+	end
+})
+
+local Button13 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de IconReset en StarterCharacterScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterCharacterScripts.IconReset)	
+	end
+})
+
+local Button14 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de ACS_Client en StarterCharacterScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterCharacterScripts.ACS_Client)	
+	end
+})
+
+local Button15 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Data de Celulares en ACS en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.Data)	
+	end
+})
+
+local Button16 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de LocalBulletFramework en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.LocalBulletFramework)	
+	end
+})
+
+local Button17 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de ACS_EventHandler en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.ACS_EventHandler)	
+	end
+})
+
+local Button18 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de AttachmentMatch en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.AttachmentMatch)	
+	end
+})
+
+local Button19 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de BulletAnchor en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.BulletAnchor)	
+	end
+})
+
+local Button20 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de CheckIfGuiPresent en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.CheckIfGuiPresent)	
+	end
+})
+
+local Button22 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de RbxCharacterSounds en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.RbxCharacterSounds)	
+	end
+})
+
+local Button23 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de RealismClient en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.RealismClient)	
+	end
+})
+
+local Button24 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de SpinAnimations en StarterPlayerScripts",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterPlayerScripts.SpinAnimations)	
+	end
+})
+
+local Button25 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de CTI en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.CTI)	
+	end
+})
+
+local Button26 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de Ciudadano en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.Ciudadano)	
+	end
+})
+
+local Button27 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de Delincuente en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.Delincuente)	
+	end
+})
+
+local Button28 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de PONAL en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.PONAL)
+	end
+})
+
+local Button29 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de ELN en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.ELN)	
+	end
+})
+
+local Button30 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de EJC en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.EJC)	
+	end
+})
+
+local Button31 = TerceraTab:CreateButton({
+	Name = "Eliminar el Team de AFEUR en Teams",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Teams.AFEUR)	
+	end
+})
+
+local Button32 = TerceraTab:CreateButton({
+	Name = "Eliminar el Sonido de CityAmbience en SoundService",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.SoundService["City Ambience 1 (SFX)"])	
+	end
+})
+
+local Button33 = TerceraTab:CreateButton({
+	Name = "Eliminar el Sonido de RuralDaytime en SoundService",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.SoundService["Rural Daytime Ext Birds Tweeting Chirping 1 (SFX)"])	
+	end
+})
+
+local Button34 = TerceraTab:CreateButton({
+	Name = "Eliminar el Grupo de Sonido de Footsteps en SoundService",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.SoundService.Footsteps)	
+	end
+})
+
+local Button35 = TerceraTab:CreateButton({
+	Name = "Eliminar el LocalScript de Preload en ReplicatedFirst",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedFirst.Preload)	
+	end
+})
+
+local Button36 = TerceraTab:CreateButton({
+	Name = "Eliminar la UI de Carga en ReplicatedFirst",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.ReplicatedFirst.Intro)	
+	end
+})
+
+local Button37 = TerceraTab:CreateButton({
+	Name = "Eliminar el Efecto de el Cielo en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting["Afternoon Sky"])	
+	end
+})
+
+local Button38 = TerceraTab:CreateButton({
+	Name = "Eliminar el Efecto de Atmosphere en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting.Atmosphere)	
+	end
+})
+
+local Button39 = TerceraTab:CreateButton({
+	Name = "Eliminar el Efecto de Bloom en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting.Bloom)	
+	end
+})
+
+local Button40 = TerceraTab:CreateButton({
+	Name = "Eliminar el Efecto de DepthOfField en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting.DepthOfField)	
+	end
+})
+
+local Button41 = TerceraTab:CreateButton({
+	Name = "Eliminar el Efecto de SunRays en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting.SunRays)	
+	end
+})
+
+local Button42 = TerceraTab:CreateButton({
+	Name = "Eliminar la UI de lowPolyUI en Lighting",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Lighting.lowPolyUI)	
+	end
+})
+
+local Button43 = TerceraTab:CreateButton({
+	Name = "Eliminar el Folder de Scripts-Comisiones-Autos en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["Scripts-Comisiones-Autos"])	
+	end
+})
+
+local Button44 = TerceraTab:CreateButton({
+	Name = "Eliminar el Script de VIP pass en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["VIP pass"])	
+	end
+})
+
+local Button45 = TerceraTab:CreateButton({
+	Name = "Eliminar el Script de ak en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["ak"])	
+	end
+})
+
+local Button46 = TerceraTab:CreateButton({
+	Name = "Eliminar el Script de barret en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.barret)	
+	end
+})
+
+local Button47 = TerceraTab:CreateButton({
+	Name = "Eliminar el Script de tool exclusiva bosters en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["tool exclusiva bosters"])	
+	end
+})
+
+local Button48 = TerceraTab:CreateButton({
+	Name = "Eliminar el Script de M249 en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.M249)	
+	end
+})
+
+local Button49 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Spawns en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Spawns)	
+	end
+})
+
+local Button50 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Arboles en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Arboles)	
+	end
+})
+
+local Button51 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Barricadas-Amarillas en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["Barricadas-Amarillas"])	
+	end
+})
+
+local Button52 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Spawns en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Spawns)	
+	end
+})
+
+local Button53 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Vallas en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Vallas)	
+	end
+})
+
+local Button54 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Palmas en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Palmas)	
+	end
+})
+
+local Button55 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de ACS_WorkSpace en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace["ACS_WorkSpace"])	
+	end
+})
+
+local Button56 = TerceraTab:CreateButton({
+	Name = "Eliminar la Carpeta de Builds en Workspace",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Workspace.Builds)	
+	end
+})
+
+local Button57 = CuartaTab:CreateButton({
+	Name = "Kickear a manuman789",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["manuman789"])	
+	end
+})
+
+local Button58 = CuartaTab:CreateButton({
+	Name = "Kickear a elemi4433",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["elemi4433"])	
+	end
+})
+
+local Button59 = CuartaTab:CreateButton({
+	Name = "Kickear a AngelussReyes",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["AngelussReyes"])	
+	end
+})
+
+local Button60 = CuartaTab:CreateButton({
+	Name = "Kickear a SamuelMorderer",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["SamuelMorderer"])	
+	end
+})
+
+local Button61 = CuartaTab:CreateButton({
+	Name = "Kickear a juancamiloo15",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["juancamiloo15"])	
+	end
+})
+
+local Button62 = CuartaTab:CreateButton({
+	Name = "Kickear a juancamiloo15",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["bombaeeeeeee"])	
+	end
+})
+
+local Button63 = CuartaTab:CreateButton({
+	Name = "Kickear a MEXF0R",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["MEXF0R"])	
+	end
+})
+
+local Button64 = CuartaTab:CreateButton({
+	Name = "Kickear a santyneitor",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["santyneitor"])	
+	end
+})
+
+local Button65 = CuartaTab:CreateButton({
+	Name = "Kickear a RepubIicaColombiana",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["RepubIicaColombiana"])	
+	end
+})
+
+local Button66 = CuartaTab:CreateButton({
+	Name = "Kickear a bystaxx9",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["bystaxx9"])	
+	end
+})
+
+local Button67 = CuartaTab:CreateButton({
+	Name = "Kickear a SANTYx_xLOL",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["SANTYx_xLOL"])	
+	end
+})
+
+local Button68 = CuartaTab:CreateButton({
+	Name = "Kickear a spreen12365",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["spreen12365"])	
+	end
+})
+
+local Button68 = CuartaTab:CreateButton({
+	Name = "Kickear a Abrahamcho4121",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["Abrahamcho4121"])	
+	end
+})
+
+local Button69 = TerceraTab:CreateButton({
+	Name = "Eliminar la ScreenGui de Buttons en StarterGui",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterGui.Buttons)	
+	end
+})
+
+end
