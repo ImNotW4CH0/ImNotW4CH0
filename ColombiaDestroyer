@@ -39,6 +39,9 @@ local TerceraSection = TerceraTab:CreateSection("Eliminar Recursos")
 local CuartaTab = Window1:CreateTab("Nivel 4", nil)
 local CuartaSection = CuartaTab:CreateSection("Anti Adminstradores")
 
+local QuintaTab = Window1:CreateTab("Nivel 5", nil)
+local QuintaSection = QuintaTab:CreateSection("Auto-Kickear Adminstradores")
+
 Rayfield:Notify({
 	Title = "Ejecutaste el Script!",
 	Content = "Haz burlado el AntiCheat actual en tan solo 1.5 segundos.",
@@ -489,7 +492,7 @@ local Button61 = CuartaTab:CreateButton({
 })
 
 local Button62 = CuartaTab:CreateButton({
-	Name = "Kickear a juancamiloo15",
+	Name = "Kickear a bombaeeeeeee",
 	Callback = function()
 	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["bombaeeeeeee"])	
 	end
@@ -544,7 +547,277 @@ local Button68 = CuartaTab:CreateButton({
 	end
 })
 
-local Button69 = TerceraTab:CreateButton({
+local Button69 = CuartaTab:CreateButton({
+	Name = "Kickear a Oreospanish",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["Oreospanish"])	
+	end
+})
+
+local Button70 = CuartaTab:CreateButton({
+	Name = "Kickear a gokuio3333",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["gokuio3333"])	
+	end
+})
+
+local Button71 = CuartaTab:CreateButton({
+	Name = "Kickear a esclabo203",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["esclabo203"])	
+	end
+})
+
+local Button72 = CuartaTab:CreateButton({
+	Name = "Kickear a superpro300pibe",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["superpro300pibe"])	
+	end
+})
+
+local Button73 = CuartaTab:CreateButton({
+	Name = "Kickear a HeeyZoey",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["HeeyZoey"])	
+	end
+})
+
+local Button74 = CuartaTab:CreateButton({
+	Name = "Kickear a jon_z5",
+	Callback = function()
+	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["jon_z5"])	
+	end
+})
+
+local Button75 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a manuman789",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "manuman789" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["manuman789"])
+	end
+    end)	
+	end
+})
+
+local Button76 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a elemi4433",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "elemi4433" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["elemi4433"])
+	end
+    end)	
+	end
+})
+
+local Button77 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a AngelussReyes",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "AngelussReyes" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["AngelussReyes"])
+	end
+    end)	
+	end
+})
+
+local Button78 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a SamuelMorderer",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "SamuelMorderer" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["SamuelMorderer"])
+	end
+    end)	
+	end
+})
+
+local Button79 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a juancamiloo15",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "juancamiloo15" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["juancamiloo15"])
+	end
+    end)	
+	end
+})
+
+local Button80 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a bombaeeeeeee",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "bombaeeeeeee" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["bombaeeeeeee"])
+	end
+    end)	
+	end
+})
+
+local Button81 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a MEXF0R",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "MEXF0R" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["MEXF0R"])
+	end
+    end)	
+	end
+})
+
+local Button82 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a santyneitor",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "santyneitor" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["santyneitor"])
+	end
+    end)	
+	end
+})
+
+local Button83 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a RepublicaColombiana",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "RepublicaColombiana" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["RepublicaColombiana"])
+	end
+    end)	
+	end
+})
+
+local Button84 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a bystaxx9",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "bystaxx9" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["bystaxx9"])
+	end
+    end)	
+	end
+})
+
+local Button85 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a SANTYx_xLOL",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "SANTYx_xLOL" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["SANTYx_xLOL"])
+	end
+    end)	
+	end
+})
+
+local Button86 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a spreen12365",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "spreen12365" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["spreen12365"])
+	end
+    end)	
+	end
+})
+
+local Button87 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a Abrahamcho4121",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "Abrahamcho4121" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["Abrahamcho4121"])
+	end
+    end)	
+	end
+})
+
+local Button88 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a Oreospanish",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "Oreospanish" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["Oreospanish"])
+	end
+    end)	
+	end
+})
+
+local Button89 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a gokuio3333",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "gokuio3333" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["gokuio3333"])
+	end
+    end)	
+	end
+})
+
+local Button90 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a esclabo203",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "esclabo203" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["esclabo203"])
+	end
+    end)	
+	end
+})
+
+local Button91 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a superpro300pibe",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "superpro300pibe" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["superpro300pibe"])
+	end
+    end)	
+	end
+})
+
+local Button92 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a HeeyZoey",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "HeeyZoey" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["HeeyZoey"])
+	end
+    end)	
+	end
+})
+
+local Button93 = QuintaTab:CreateButton({
+	Name = "Auto-Kickear a jon_z5",
+	Callback = function()
+	game.Players.PlayerAdded:Connect(function(plr)
+	if plr.Name == "jon_z5" then
+		warn("Sucessfuly kicked", plr.Name)
+		game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.Players["jon_z5"])
+	end
+    end)	
+	end
+})
+
+local Button94 = TerceraTab:CreateButton({
 	Name = "Eliminar la ScreenGui de Buttons en StarterGui",
 	Callback = function()
 	game.ReplicatedStorage.CSS_Events.CarDestroyer:FireServer(game.StarterGui.Buttons)	
